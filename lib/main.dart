@@ -40,6 +40,8 @@ class _MyAppState extends ConsumerState<MyApp> {
     setState(() {});
   }
 
+  print('gugug');
+
   @override
   Widget build(BuildContext context) {
     return ref.watch(authStateChangeProvider).when(
